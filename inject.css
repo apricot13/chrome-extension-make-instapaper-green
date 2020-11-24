@@ -1,0 +1,521 @@
+:root {
+    --green-bg-color: rgb(250, 255, 251);
+    --green-font-color: rgb(47 72 50);
+    --green-link-color: rgb(47 72 50);
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+
+.read_option_color .swatch {
+    width: 17% !important;
+}
+
+.read_option_color .swatch_green {
+    color: var(--green-bg-color);
+    background-color: var(--green-bg-color);
+}
+
+/* my font mode*/
+
+.custom_mode #titlebar {
+    font-family: 'Source Sans Pro', sans-serif!important
+}
+
+.custom_mode #footer,.custom_mode #speedRead,.custom_mode #story {
+    font-family: 'Source Sans Pro', sans-serif
+}
+
+
+/* Green mode */
+
+.greenmode {
+    background-color:  var(--green-bg-color);
+    color: var(--green-font-color)
+}
+
+.greenmode a {
+    color: var(--green-link-color)
+}
+
+.greenmode a.active,.greenmode.desktop_os a:active,.greenmode.desktop_os a:focus,.greenmode.desktop_os a:hover {
+    color: #0074bf
+}
+
+@media (max-width: 767px) {
+    .greenmode .main_container {
+        background-color:var(--green-bg-color)
+    }
+
+    .greenmode .side_column,.greenmode .side_column .hr {
+        border-color: #ececec
+    }
+}
+
+.greenmode .hr,.greenmode hr {
+    border-color: #ececec
+}
+
+.greenmode .hr-border-top {
+    border-color: #ccc
+}
+
+.greenmode .hr-relief {
+    border-color: #f7f7f7
+}
+
+.greenmode .browse_action,.greenmode a.browse_action {
+    color: #000
+}
+
+.greenmode .speed_read {
+    background-color: var(--green-bg-color);
+}
+
+.greenmode .speed_read .progress_bar {
+    background-color: #0074bf
+}
+
+.greenmode .speed_read .fade_right {
+    background: rgba(255,255,255,0);
+    background: -moz-linear-gradient(left,rgba(255,255,255,0) 0,rgba(255,255,255,.65) 28%,rgba(255,255,255,.95) 82%,#fff 100%);
+    background: -webkit-gradient(left top,right top,color-stop(0,rgba(255,255,255,0)),color-stop(28%,rgba(255,255,255,.65)),color-stop(82%,rgba(255,255,255,.95)),color-stop(100%,#fff));
+    background: -webkit-linear-gradient(left,rgba(255,255,255,.01) 0,rgba(255,255,255,.65) 28%,rgba(255,255,255,.95) 82%,#fff 100%);
+    background: -o-linear-gradient(left,rgba(255,255,255,0) 0,rgba(255,255,255,.65) 28%,rgba(255,255,255,.95) 82%,#fff 100%);
+    background: -ms-linear-gradient(left,rgba(255,255,255,0) 0,rgba(255,255,255,.65) 28%,rgba(255,255,255,.95) 82%,#fff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1)
+}
+
+.greenmode .speed_read .fade_left {
+    background: #fff;
+    background: -moz-linear-gradient(left,#fff 0,rgba(255,255,255,.95) 17%,rgba(255,255,255,.76) 57%,rgba(255,255,255,0) 100%);
+    background: -webkit-gradient(left top,right top,color-stop(0,rgba(255,255,255,.95)),color-stop(17%,#fff),color-stop(57%,rgba(255,255,255,.76)),color-stop(100%,rgba(255,255,255,0)));
+    background: -webkit-linear-gradient(left,#fff 0,rgba(255,255,255,.95) 17%,rgba(255,255,255,.76) 57%,rgba(255,255,255,.01) 100%);
+    background: -o-linear-gradient(left,#fff 0,rgba(255,255,255,.95) 17%,rgba(255,255,255,.76) 57%,rgba(255,255,255,0) 100%);
+    background: -ms-linear-gradient(left,#fff 0,rgba(255,255,255,.95) 17%,rgba(255,255,255,.76) 57%,rgba(255,255,255,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1)
+}
+
+.greenmode .save_article,.greenmode .save_article.saved,.greenmode .save_article.saved:hover,.greenmode .save_article.saving,.greenmode .save_article.saving:hover,.greenmode .speed-stats {
+    color: #000
+}
+
+.greenmode ul.tabs {
+    border-bottom-color: #ececec
+}
+
+.greenmode ul.tabs li {
+    border-color: #ececec #ececec transparent
+}
+
+.greenmode ul.tabs li a {
+    color: #000;
+    background-color: #f7f7f7
+}
+
+.greenmode ul.tabs li.active {
+    border-bottom-color: #fff
+}
+
+.greenmode ul.tabs li.active a {
+    color: #0074bf;
+    background-color: #fff
+}
+
+.greenmode .page_header {
+    background-color: #fff
+}
+
+.greenmode .page_header input {
+    color: #000
+}
+
+.greenmode .page_header_mobile {
+    background-color: #fff;
+    border-color: #ececec
+}
+
+.greenmode .multi_actions a {
+    color: #000
+}
+
+.greenmode .multi_actions a:active,.greenmode .multi_actions a:focus,.greenmode .multi_actions a:hover {
+    color: #0074bf
+}
+
+.greenmode .side_nav {
+    color: #000
+}
+
+.greenmode .side_nav a {
+    color: #222
+}
+
+.greenmode .side_nav a.active,.greenmode.desktop_os .side_nav a:hover,.greenmode.desktop_os a.active:hover {
+    color: #0074bf
+}
+
+.greenmode .side_item.drag_hover {
+    background-color: rgba(0,116,191,.1)
+}
+
+.greenmode .side_nav_mobile a {
+    color: #000;
+    opacity: .7
+}
+
+.greenmode .side_footer {
+    box-shadow: 0 -10px 20px #fff;
+    background-color: #fff
+}
+
+.greenmode .folder_edit {
+    color: #404040
+}
+
+.greenmode .folder_header,.greenmode .folder_inline_add input[type=text] {
+    color: #000
+}
+
+.greenmode .folder_inline_add input[type=text]::-webkit-input-placeholder {
+    color: #505050;
+    font-weight: 400
+}
+
+.greenmode .folder_inline_add input[type=text]:-moz-placeholder {
+    color: #505050;
+    font-weight: 400
+}
+
+.greenmode .folder_inline_add input[type=text]::-moz-placeholder {
+    color: #505050;
+    font-weight: 400
+}
+
+.greenmode .folder_inline_add input[type=text]:-ms-input-placeholder {
+    color: #505050;
+    font-weight: 400
+}
+
+.greenmode .folder_inline_add input[type=text]:focus {
+    color: #000;
+    border: 1px solid #0074bf
+}
+
+.greenmode .folder_inline_add input[type=text]:focus::-webkit-input-placeholder {
+    content: "New Folder";
+    font-weight: 400;
+    color: #505050;
+    opacity: .7
+}
+
+.greenmode .folder_inline_add input[type=text]:focus:-moz-placeholder {
+    content: "New Folder";
+    font-weight: 400;
+    color: #505050;
+    opacity: .7
+}
+
+.greenmode .folder_inline_add input[type=text]:focus::-moz-placeholder {
+    content: "New Folder";
+    font-weight: 400;
+    color: #505050;
+    opacity: .7
+}
+
+.greenmode .folder_inline_add input[type=text]:focus:-ms-input-placeholder {
+    content: "New Folder";
+    font-weight: 400;
+    color: #505050;
+    opacity: .7
+}
+
+.greenmode .header_action_bar {
+    border-color: #ccc
+}
+
+.greenmode .search_query_field {
+    color: #505050;
+    font-weight: 400
+}
+
+.active .greenmode .search_query_field,.greenmode .search_query_field.active,.greenmode .search_query_field:active,.greenmode .search_query_field:focus {
+    color: #0074bf!important
+}
+
+.greenmode .search_query_field:focus::-webkit-input-placeholder {
+    color: transparent
+}
+
+.greenmode .search_query_field:focus:-moz-placeholder {
+    color: transparent
+}
+
+.greenmode .search_query_field:focus::-moz-placeholder {
+    color: transparent
+}
+
+.greenmode .search_query_field:focus:-ms-input-placeholder {
+    color: transparent
+}
+
+.greenmode .search_query_field::-webkit-input-placeholder {
+    -webkit-transition: color 300ms ease;
+    -moz-transition: color 300ms ease;
+    transition: color 300ms ease;
+    color: #505050;
+    opacity: .5;
+    font-weight: 400
+}
+
+.greenmode .search_query_field:-moz-placeholder {
+    -webkit-transition: color 300ms ease;
+    -moz-transition: color 300ms ease;
+    transition: color 300ms ease;
+    color: #505050;
+    opacity: .5;
+    font-weight: 400
+}
+
+.greenmode .search_query_field::-moz-placeholder {
+    -webkit-transition: color 300ms ease;
+    -moz-transition: color 300ms ease;
+    transition: color 300ms ease;
+    color: #505050;
+    opacity: .5;
+    font-weight: 400
+}
+
+.greenmode .search_query_field:-ms-input-placeholder {
+    -webkit-transition: color 300ms ease;
+    -moz-transition: color 300ms ease;
+    transition: color 300ms ease;
+    color: #505050;
+    opacity: .5;
+    font-weight: 400
+}
+
+.greenmode.desktop_os .article_item .title_row a.article_title {
+    color: #111
+}
+
+.greenmode.desktop_os .article_item .title_row a.article_title:active,.greenmode.desktop_os .article_item .title_row a.article_title:focus,.greenmode.desktop_os .article_item .title_row a.article_title:hover {
+    color: #0074bf
+}
+
+.greenmode.desktop_os .article_item .title_meta a {
+    color: #7a7a7a
+}
+
+.greenmode .article_item.drag_active .title_row a.article_title,.greenmode .article_item.selected .title_row a.article_title,.greenmode.desktop_os .article_item .bookmark_edit_link:active,.greenmode.desktop_os .article_item .bookmark_edit_link:focus,.greenmode.desktop_os .article_item .bookmark_edit_link:hover,.greenmode.desktop_os .article_item .title_meta a:active,.greenmode.desktop_os .article_item .title_meta a:focus,.greenmode.desktop_os .article_item .title_meta a:hover {
+    color: #0074bf
+}
+
+.greenmode .article_inner_item {
+    color: #7a7a7a;
+    border-color: #ececec
+}
+
+.greenmode .article_preview {
+    color: #404040
+}
+
+.greenmode .groups_article_preview {
+    color: #7a7a7a
+}
+
+.greenmode .article_selected_indicator {
+    color: #0074bf
+}
+
+.greenmode .friendList .friendItem {
+    border-color: #ececec
+}
+
+.greenmode .multi_actions_available_mobile {
+    background: #fff;
+    border-color: #ececec;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.35)
+}
+
+.drag_active .greenmode .multi_select_count,.greenmode .multi_select_count a:active,.greenmode .multi_select_count a:focus,.greenmode .multi_select_count a:hover {
+    color: #0074bf
+}
+
+.greenmode .empty_notice {
+    color: #505050;
+    border-color: #ececec
+}
+
+.greenmode.desktop_os .pagination a:active,.greenmode.desktop_os .pagination a:focus,.greenmode.desktop_os .pagination a:hover {
+    color: #0074bf
+}
+
+.greenmode.search_mode .article_preview b {
+    background: #e5e5e5
+}
+
+.greenmode .search_results_count {
+    color: #505050
+}
+
+.greenmode .search_metadata {
+    color: #7a7a7a
+}
+
+.greenmode .search_metadata a.search_advanced_link {
+    color: #7a7a7a!important
+}
+
+.greenmode .search_metadata a.search_advanced_link:active,.greenmode .search_metadata a.search_advanced_link:focus,.greenmode .search_metadata a.search_advanced_link:hover {
+    color: #0074bf!important
+}
+
+.greenmode .ipnote-popover,.greenmode .ipnote-popover textarea {
+    background-color: #fff
+}
+
+.greenmode .ipnote-popover .arrow::after {
+    border-bottom-color: #fff
+}
+
+.greenmode .ipnote-popover .header {
+    border-color: #ccc
+}
+
+.greenmode .article_image {
+    border-color: #ececec
+}
+
+.highlight_item .article_preview .greenmode a:hover,.greenmode .highlight,.greenmode .highlight_item .article_preview a:hover,.greenmode .highlight_label {
+    color: #000;
+    background-color: rgba(255,242,51,.29804)
+}
+
+.highlight_item .article_preview .greenmode a:hover a,.greenmode .highlight a,.greenmode .highlight_item .article_preview a:hover a,.greenmode .highlight_label a,.greenmode a>span.highlight,.greenmode a>span.highlight_label {
+    color: #0074bf
+}
+
+.greenmode .highlight_item .title_meta a {
+    color: #7a7a7a
+}
+
+.greenmode .highlight_item .article_preview,.greenmode .highlight_item .article_preview a {
+    color: #000
+}
+
+.greenmode .highlight_item .article_preview a:active,.greenmode .highlight_item .article_preview a:focus,.greenmode .highlight_item .article_preview a:hover {
+    background-color: rgba(255,242,51,.29804)
+}
+
+.greenmode .control_bar .primary_bar {
+    background-color: var(--green-bg-color)
+    border-color: #ccc
+}
+
+.greenmode .control_bar_item {
+    color: #000
+}
+
+.greenmode .origin_line,.greenmode .origin_line a,.greenmode .origin_line a i {
+    color: #c8c8c8
+}
+
+.greenmode.desktop_os .origin_line a:hover {
+    color: #111;
+    text-decoration: underline
+}
+
+.greenmode .story {
+    color: var(--green-font-color)
+}
+
+.greenmode .story a {
+    color: var(--green-link-color);
+    text-decoration: underline;
+}
+
+.greenmode .modal,.greenmode .popover {
+    color: var(--green-font-color)
+}
+
+.greenmode .button {
+    color: #fff;
+    background-color: #222
+}
+
+.greenmode.desktop_os .button:active,.greenmode.desktop_os .button:focus,.greenmode.desktop_os .button:hover {
+    background-color: rgba(34,34,34,.95);
+    color: rgba(255,255,255,.95)
+}
+
+.greenmode .button_black_outline {
+    color: rgba(34,34,34,.9);
+    border-color: rgba(34,34,34,.7)
+}
+
+.greenmode.desktop_os .button_black_outline:active,.greenmode.desktop_os .button_black_outline:focus,.greenmode.desktop_os .button_black_outline:hover {
+    color: #fff;
+    background-color: rgba(34,34,34,.7);
+    border-color: rgba(34,34,34,.7)
+}
+
+.greenmode .button_blue_outline,.greenmode.desktop_os .button_blue_outline:active,.greenmode.desktop_os .button_blue_outline:focus,.greenmode.desktop_os .button_blue_outline:hover {
+    color: #0074bf
+}
+
+.greenmode .btn-instapaper,.greenmode .buttoner {
+    color: #fff;
+    background: #222
+}
+
+.greenmode.desktop_os .btn-instapaper:active,.greenmode.desktop_os .btn-instapaper:focus,.greenmode.desktop_os .btn-instapaper:hover,.greenmode.desktop_os .buttoner:active,.greenmode.desktop_os .buttoner:focus,.greenmode.desktop_os .buttoner:hover {
+    background: #0066a8;
+    color: #fff
+}
+
+.greenmode .highlight_button:active,.greenmode .highlight_button:focus,.greenmode .highlight_button:hover {
+    color: #0074bf
+}
+
+.greenmode .bookmarklet_description {
+    border-bottom-color: #ececec
+}
+
+.greenmode .mobile_cover {
+    border-color: #ececec
+}
+
+.greenmode .popover {
+    background-color: rgba(255,255,255,.98);
+    border-color: rgba(0,0,0,.1);
+    color: #000
+}
+
+.greenmode .popover a,.greenmode .popover a.active:active,.greenmode .popover a.active:focus,.greenmode .popover a.active:hover {
+    color: #000
+}
+
+.greenmode.desktop_os .popover a:active,.greenmode.desktop_os .popover a:focus,.greenmode.desktop_os .popover a:hover {
+    color: #0074bf
+}
+
+.greenmode .iScrollIndicator {
+    background: #000;
+    border: 1px solid #fff;
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#000),color-stop(100%,#222)) #000;
+    background: -webkit-linear-gradient(right,#000,#222) #000;
+    background: linear-gradient(to left,#000,#222) #000
+}
+
+.greenmode .text,.greenmode .text:active,.greenmode .text:focus,.greenmode .text:hover,.greenmode .text_link,.greenmode .text_link:active,.greenmode .text_link:focus,.greenmode .text_link:hover {
+    color: #000
+}
+
+.greenmode .muted {
+    color: #7a7a7a
+}
+
+.greenmode .green {
+    color: #27ae60
+}

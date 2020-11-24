@@ -1,0 +1,22 @@
+{
+  "name": "Instapaper: make legible",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Makes instapaper more legible (for me at least)",
+  "permissions": [
+    "https://*.instapaper.com/read/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.instapaper.com/read/*"
+      ],
+      "js": [
+        "inject.js"
+      ],
+      "css": [
+        "inject.css"
+      ]
+    }
+  ]
+}
